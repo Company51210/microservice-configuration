@@ -11,6 +11,6 @@ spring:
         dialect: org.hibernate.dialect.MySQL5InnoDBDialect
 #Hibernate ddl auto (create, create-drop, validate, update)
         ddl-auto: update
-   jackson:
+  jackson:
     serialization:
       fail-on-empty-beans: false    
